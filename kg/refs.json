@@ -1,0 +1,542 @@
+[
+ {
+  "id": "good1965speculations",
+  "type": "chapter",
+  "title": "Speculations Concerning the First Ultraintelligent Machine",
+  "author": [
+   {
+    "family": "Good",
+    "given": "I. J."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1965
+    ]
+   ]
+  },
+  "container-title": "Advances in Computers",
+  "lab": {
+   "work": "lab:work/good1965speculations",
+   "role": "background",
+   "supports": [
+    "lab:claim/good-intelligence-explosion"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "PDF 원문(801·GUARD·Conitzer) 또는 arXiv 초록 페이지와 대조 (2026-11-20)",
+   "checkedSource": "external"
+  }
+ },
+ {
+  "id": "schmidhuber2003godel",
+  "type": "report",
+  "title": "Gödel Machines: Self-Referential Universal Problem Solvers Making Provably Optimal Self-Improvements",
+  "author": [
+   {
+    "family": "Schmidhuber",
+    "given": "Jürgen"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2003
+    ]
+   ]
+  },
+  "container-title": "arXiv:cs/0309048",
+  "lab": {
+   "work": "lab:work/schmidhuber2003godel",
+   "role": "background",
+   "supports": [
+    "lab:claim/godel-proof-rewrite"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "PDF 원문(801·GUARD·Conitzer) 또는 arXiv 초록 페이지와 대조 (2026-11-20)",
+   "checkedSource": "external"
+  }
+ },
+ {
+  "id": "zelikman2022star",
+  "type": "paper-conference",
+  "title": "STaR: Bootstrapping Reasoning With Reasoning",
+  "author": [
+   {
+    "family": "Zelikman",
+    "given": "Eric"
+   },
+   {
+    "family": "Wu",
+    "given": "Yuhuai"
+   },
+   {
+    "family": "Mu",
+    "given": "Jesse"
+   },
+   {
+    "family": "Goodman",
+    "given": "Noah"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2022
+    ]
+   ]
+  },
+  "container-title": "NeurIPS 2022",
+  "lab": {
+   "work": "lab:work/zelikman2022star",
+   "role": "primary",
+   "supports": [
+    "lab:claim/star-30x"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "PDF 원문(801·GUARD·Conitzer) 또는 arXiv 초록 페이지와 대조 (2026-11-20)",
+   "checkedSource": "external"
+  }
+ },
+ {
+  "id": "chen2026recursive",
+  "type": "report",
+  "title": "Recursive Self-Improvement in AI: From Bounded Self-Refinement to Autonomous Research Loops",
+  "author": [
+   {
+    "family": "Chen",
+    "given": "Mingguang"
+   },
+   {
+    "family": "Wang",
+    "given": "Licheng"
+   },
+   {
+    "family": "Qu",
+    "given": "Bo"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "container-title": "arXiv:2607.07663",
+  "lab": {
+   "work": "lab:work/chen2026recursive",
+   "role": "primary",
+   "supports": [
+    "lab:claim/chen-1250",
+    "lab:claim/chen-hierarchy-pattern"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "PDF 원문(801·GUARD·Conitzer) 또는 arXiv 초록 페이지와 대조 (2026-11-20)",
+   "checkedSource": "external"
+  }
+ },
+ {
+  "id": "zhang2025darwin",
+  "type": "paper-conference",
+  "title": "Darwin Gödel Machine: Open-Ended Evolution of Self-Improving Agents",
+  "author": [
+   {
+    "family": "Zhang",
+    "given": "Jenny"
+   },
+   {
+    "family": "Hu",
+    "given": "Shengran"
+   },
+   {
+    "family": "Lu",
+    "given": "Cong"
+   },
+   {
+    "family": "Lange",
+    "given": "Robert"
+   },
+   {
+    "family": "Clune",
+    "given": "Jeff"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2025
+    ]
+   ]
+  },
+  "container-title": "ICLR 2026 (arXiv:2505.22954)",
+  "lab": {
+   "work": "lab:work/zhang2025darwin",
+   "role": "primary",
+   "supports": [
+    "lab:claim/dgm-swebench"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "PDF 원문(801·GUARD·Conitzer) 또는 arXiv 초록 페이지와 대조 (2026-11-20)",
+   "checkedSource": "external"
+  }
+ },
+ {
+  "id": "shumailov2024ai",
+  "type": "article-journal",
+  "title": "AI models collapse when trained on recursively generated data",
+  "author": [
+   {
+    "family": "Shumailov",
+    "given": "Ilia"
+   },
+   {
+    "family": "Shumaylov",
+    "given": "Zakhar"
+   },
+   {
+    "family": "Zhao",
+    "given": "Yiren"
+   },
+   {
+    "family": "Papernot",
+    "given": "Nicolas"
+   },
+   {
+    "family": "Anderson",
+    "given": "Ross"
+   },
+   {
+    "family": "Gal",
+    "given": "Yarin"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "container-title": "Nature",
+  "DOI": "10.1038/s41586-024-07566-y",
+  "lab": {
+   "work": "lab:work/shumailov2024ai",
+   "role": "primary",
+   "supports": [
+    "lab:claim/collapse-tails"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": true
+   },
+   "checkedBy": "PDF 원문(801·GUARD·Conitzer) 또는 arXiv 초록 페이지와 대조 (2026-11-20)",
+   "checkedSource": "external"
+  }
+ },
+ {
+  "id": "yuan2024selfrewarding",
+  "type": "paper-conference",
+  "title": "Self-Rewarding Language Models",
+  "author": [
+   {
+    "family": "Yuan",
+    "given": "Weizhe"
+   },
+   {
+    "family": "Pang",
+    "given": "Richard Yuanzhe"
+   },
+   {
+    "family": "Cho",
+    "given": "Kyunghyun"
+   },
+   {
+    "family": "Li",
+    "given": "Xian"
+   },
+   {
+    "family": "Sukhbaatar",
+    "given": "Sainbayar"
+   },
+   {
+    "family": "Xu",
+    "given": "Jing"
+   },
+   {
+    "family": "Weston",
+    "given": "Jason"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "container-title": "ICML 2024",
+  "lab": {
+   "work": "lab:work/yuan2024selfrewarding",
+   "role": "primary",
+   "supports": [
+    "lab:claim/srlm-alpaca"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "PDF 원문(801·GUARD·Conitzer) 또는 arXiv 초록 페이지와 대조 (2026-11-20)",
+   "checkedSource": "external"
+  }
+ },
+ {
+  "id": "sii2026second",
+  "type": "report",
+  "title": "No Second Run: Does RSI Stop at Frontier Pre-training?",
+  "author": [
+   {
+    "literal": "SII & Xinxu AI"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "container-title": "arXiv:2611.10719",
+  "lab": {
+   "work": "lab:work/sii2026second",
+   "role": "primary",
+   "supports": [
+    "lab:claim/801-benchmarks",
+    "lab:claim/801-human-approval"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "PDF 원문(801·GUARD·Conitzer) 또는 arXiv 초록 페이지와 대조 (2026-11-20)",
+   "checkedSource": "external"
+  }
+ },
+ {
+  "id": "zhang2026guard",
+  "type": "report",
+  "title": "GUARD: Stabilizing Recursive Self-Improvement with Regret Guidance",
+  "author": [
+   {
+    "family": "Zhang",
+    "given": "Minghe"
+   },
+   {
+    "family": "Kang",
+    "given": "Xuetao"
+   },
+   {
+    "family": "Ming",
+    "given": "Yifei"
+   },
+   {
+    "family": "Chen",
+    "given": "Yanfei"
+   },
+   {
+    "family": "Yu",
+    "given": "Han"
+   },
+   {
+    "family": "Zhuang",
+    "given": "Yufan"
+   },
+   {
+    "family": "Lee",
+    "given": "Chen-Yu"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "container-title": "arXiv:2611.23476",
+  "lab": {
+   "work": "lab:work/zhang2026guard",
+   "role": "primary",
+   "supports": [
+    "lab:claim/guard-19of19"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "PDF 원문(801·GUARD·Conitzer) 또는 arXiv 초록 페이지와 대조 (2026-11-20)",
+   "checkedSource": "external"
+  }
+ },
+ {
+  "id": "conitzer2026recursive",
+  "type": "report",
+  "title": "Is Recursive Self-Improvement Safe?",
+  "author": [
+   {
+    "family": "Conitzer",
+    "given": "Vincent"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "container-title": "arXiv:2611.10261",
+  "lab": {
+   "work": "lab:work/conitzer2026recursive",
+   "role": "primary",
+   "supports": [
+    "lab:claim/conitzer-unknown"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "PDF 원문(801·GUARD·Conitzer) 또는 arXiv 초록 페이지와 대조 (2026-11-20)",
+   "checkedSource": "external"
+  }
+ },
+ {
+  "id": "tomshardware2026qwenputer",
+  "type": "webpage",
+  "title": "AI engineer successfully compiles a 32-bit RISC-V CPU in Qwen 3.5 4B LLM (Qwenputer)",
+  "author": [],
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "container-title": "Tom's Hardware",
+  "lab": {
+   "work": "lab:work/tomshardware2026qwenputer",
+   "role": "background",
+   "supports": [
+    "lab:claim/qwenputer-compiled"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "PDF 원문(801·GUARD·Conitzer) 또는 arXiv 초록 페이지와 대조 (2026-11-20)",
+   "checkedSource": "external"
+  }
+ },
+ {
+  "id": "theregister2026weightspace",
+  "type": "webpage",
+  "title": "Forget retraining - AI can now tweak another AI's weights",
+  "author": [],
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "container-title": "The Register",
+  "lab": {
+   "work": "lab:work/theregister2026weightspace",
+   "role": "background",
+   "supports": [
+    "lab:claim/wsp-edit-other"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "PDF 원문(801·GUARD·Conitzer) 또는 arXiv 초록 페이지와 대조 (2026-11-20)",
+   "checkedSource": "external"
+  }
+ }
+]

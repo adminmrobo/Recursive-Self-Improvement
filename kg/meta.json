@@ -1,0 +1,49 @@
+{
+ "title": "스스로 고치는 AI는 어디까지 왔나 — 재귀적 자기개선(RSI) 기초 정리",
+ "number": "RSI-1",
+ "series": "연구실 해설",
+ "about": [
+  "lab:concept/recursive-self-improvement",
+  "lab:concept/improvement-loop",
+  "lab:concept/verification-hierarchy",
+  "lab:concept/model-collapse",
+  "lab:method/guard-soft-hurt-gate",
+  "lab:question/rsi-safety"
+ ],
+ "basedOn": [
+  "good1965speculations",
+  "schmidhuber2003godel",
+  "zelikman2022star",
+  "chen2026recursive",
+  "zhang2025darwin",
+  "shumailov2024ai",
+  "yuan2024selfrewarding",
+  "sii2026second",
+  "zhang2026guard",
+  "conitzer2026recursive"
+ ],
+ "educationalLevel": "입문",
+ "creator": [
+  {
+   "name": "안상선",
+   "role": "author"
+  }
+ ],
+ "contributor": [
+  {
+   "name": "AI 보조 제작",
+   "role": "assistant"
+  }
+ ],
+ "date": "2026-11-20",
+ "version": "1.0",
+ "language": [
+  "ko"
+ ],
+ "license": "",
+ "url": "https://adminmrobo.github.io/Recursive-Self-Improvement/",
+ "registry": "KG_00_registry 0.2",
+ "learningResourceType": "interactive explainer",
+ "seeAlso": "",
+ "suggestedCitation": "안상선 (2026). 스스로 고치는 AI는 어디까지 왔나 — 재귀적 자기개선(RSI) 기초 정리. 연구실 해설, v1.0."
+}

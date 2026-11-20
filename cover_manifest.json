@@ -1,0 +1,350 @@
+{
+  "series_ko": "연구실 해설 · 재귀적 자기개선",
+  "title_ko": "스스로 고치는 AI는 어디까지 왔나",
+  "site_title": "스스로 고치는 AI는 어디까지 왔나 — 재귀적 자기개선(RSI) 기초 정리 · 연구실 해설",
+  "site_url": "https://adminmrobo.github.io/Recursive-Self-Improvement/",
+  "ontology": {
+    "pages": [
+      {
+        "path": "index.html",
+        "kg": true,
+        "export": true
+      }
+    ],
+    "files": [
+      "kg/kg.json",
+      "kg/refs.json",
+      "kg/meta.json"
+    ]
+  },
+  "i18n": {
+    "langs": [
+      "ko"
+    ],
+    "pages": {
+      "ko": 1
+    },
+    "readme_langs": [
+      "ko"
+    ]
+  },
+  "languages": [
+    "ko"
+  ],
+  "items": [
+    {
+      "id": "cover",
+      "role": "cover",
+      "path": "img/cover_rsi.webp",
+      "size": [
+        1600,
+        900
+      ],
+      "characters": [
+        "doc",
+        "asst",
+        "fly",
+        "jupanbot"
+      ],
+      "robot": "jupanbot-v2",
+      "prompt_en": "detailed 16-bit RPG pixel art, bright daytime laboratory, no text, no letters, no logos — large four-color circular loop machine on the right, four characters on the left (full prompt: docs/GENSPARK_요청서_RSI.md, 요청 1)",
+      "source_of": null,
+      "status": "redraw"
+    },
+    {
+      "id": "og",
+      "role": "og",
+      "path": "img/og_rsi.jpg",
+      "size": [
+        1200,
+        630
+      ],
+      "characters": [
+        "doc",
+        "asst",
+        "fly",
+        "jupanbot"
+      ],
+      "robot": "jupanbot-v2",
+      "prompt_en": null,
+      "source_of": "cover",
+      "status": "redraw"
+    },
+    {
+      "id": "sc_cm1_1",
+      "role": "scene",
+      "embedded_in": "index.html",
+      "key": ".frame[data-img=\"cm1_1\"]",
+      "size": [
+        1024,
+        1024
+      ],
+      "characters": [
+        "jupanbot"
+      ],
+      "robot": "jupanbot-v2",
+      "prompt_en": "detailed 16-bit RPG pixel art, bright daytime laboratory, no text, no letters, no logos — comic panel, see docs/GENSPARK_요청서_RSI.md",
+      "source_of": null,
+      "status": "redraw"
+    },
+    {
+      "id": "sc_cm1_2",
+      "role": "scene",
+      "embedded_in": "index.html",
+      "key": ".frame[data-img=\"cm1_2\"]",
+      "size": [
+        1024,
+        1024
+      ],
+      "characters": [
+        "asst",
+        "jupanbot"
+      ],
+      "robot": "jupanbot-v2",
+      "prompt_en": "detailed 16-bit RPG pixel art, bright daytime laboratory, no text, no letters, no logos — comic panel, see docs/GENSPARK_요청서_RSI.md",
+      "source_of": null,
+      "status": "redraw"
+    },
+    {
+      "id": "sc_cm1_3",
+      "role": "scene",
+      "embedded_in": "index.html",
+      "key": ".frame[data-img=\"cm1_3\"]",
+      "size": [
+        1024,
+        1024
+      ],
+      "characters": [
+        "fly"
+      ],
+      "robot": "none",
+      "prompt_en": "detailed 16-bit RPG pixel art, bright daytime laboratory, no text, no letters, no logos — comic panel, see docs/GENSPARK_요청서_RSI.md",
+      "source_of": null,
+      "status": "redraw"
+    },
+    {
+      "id": "sc_cm1_4",
+      "role": "scene",
+      "embedded_in": "index.html",
+      "key": ".frame[data-img=\"cm1_4\"]",
+      "size": [
+        1024,
+        1024
+      ],
+      "characters": [
+        "doc"
+      ],
+      "robot": "none",
+      "prompt_en": "detailed 16-bit RPG pixel art, bright daytime laboratory, no text, no letters, no logos — comic panel, see docs/GENSPARK_요청서_RSI.md",
+      "source_of": null,
+      "status": "redraw"
+    },
+    {
+      "id": "sc_cm2_1",
+      "role": "scene",
+      "embedded_in": "index.html",
+      "key": ".frame[data-img=\"cm2_1\"]",
+      "size": [
+        1024,
+        1024
+      ],
+      "characters": [
+        "jupanbot"
+      ],
+      "robot": "jupanbot-v2",
+      "prompt_en": "detailed 16-bit RPG pixel art, bright daytime laboratory, no text, no letters, no logos — comic panel, see docs/GENSPARK_요청서_RSI.md",
+      "source_of": null,
+      "status": "redraw"
+    },
+    {
+      "id": "sc_cm2_2",
+      "role": "scene",
+      "embedded_in": "index.html",
+      "key": ".frame[data-img=\"cm2_2\"]",
+      "size": [
+        1024,
+        1024
+      ],
+      "characters": [
+        "jupanbot"
+      ],
+      "robot": "jupanbot-v2",
+      "prompt_en": "detailed 16-bit RPG pixel art, bright daytime laboratory, no text, no letters, no logos — comic panel, see docs/GENSPARK_요청서_RSI.md",
+      "source_of": null,
+      "status": "redraw"
+    },
+    {
+      "id": "sc_cm2_3",
+      "role": "scene",
+      "embedded_in": "index.html",
+      "key": ".frame[data-img=\"cm2_3\"]",
+      "size": [
+        1024,
+        1024
+      ],
+      "characters": [
+        "asst",
+        "jupanbot"
+      ],
+      "robot": "jupanbot-v2",
+      "prompt_en": "detailed 16-bit RPG pixel art, bright daytime laboratory, no text, no letters, no logos — comic panel, see docs/GENSPARK_요청서_RSI.md",
+      "source_of": null,
+      "status": "redraw"
+    },
+    {
+      "id": "sc_cm2_4",
+      "role": "scene",
+      "embedded_in": "index.html",
+      "key": ".frame[data-img=\"cm2_4\"]",
+      "size": [
+        1024,
+        1024
+      ],
+      "characters": [
+        "fly"
+      ],
+      "robot": "none",
+      "prompt_en": "detailed 16-bit RPG pixel art, bright daytime laboratory, no text, no letters, no logos — comic panel, see docs/GENSPARK_요청서_RSI.md",
+      "source_of": null,
+      "status": "redraw"
+    },
+    {
+      "id": "sc_cm3_1",
+      "role": "scene",
+      "embedded_in": "index.html",
+      "key": ".frame[data-img=\"cm3_1\"]",
+      "size": [
+        1024,
+        1024
+      ],
+      "characters": [
+        "jupanbot"
+      ],
+      "robot": "jupanbot-v2",
+      "prompt_en": "detailed 16-bit RPG pixel art, bright daytime laboratory, no text, no letters, no logos — comic panel, see docs/GENSPARK_요청서_RSI.md",
+      "source_of": null,
+      "status": "redraw"
+    },
+    {
+      "id": "sc_cm3_2",
+      "role": "scene",
+      "embedded_in": "index.html",
+      "key": ".frame[data-img=\"cm3_2\"]",
+      "size": [
+        1024,
+        1024
+      ],
+      "characters": [
+        "fly"
+      ],
+      "robot": "none",
+      "prompt_en": "detailed 16-bit RPG pixel art, bright daytime laboratory, no text, no letters, no logos — comic panel, see docs/GENSPARK_요청서_RSI.md",
+      "source_of": null,
+      "status": "redraw"
+    },
+    {
+      "id": "sc_cm3_3",
+      "role": "scene",
+      "embedded_in": "index.html",
+      "key": ".frame[data-img=\"cm3_3\"]",
+      "size": [
+        1024,
+        1024
+      ],
+      "characters": [
+        "fly",
+        "jupanbot"
+      ],
+      "robot": "jupanbot-v2",
+      "prompt_en": "detailed 16-bit RPG pixel art, bright daytime laboratory, no text, no letters, no logos — comic panel, see docs/GENSPARK_요청서_RSI.md",
+      "source_of": null,
+      "status": "redraw"
+    },
+    {
+      "id": "sc_cm3_4",
+      "role": "scene",
+      "embedded_in": "index.html",
+      "key": ".frame[data-img=\"cm3_4\"]",
+      "size": [
+        1024,
+        1024
+      ],
+      "characters": [
+        "doc"
+      ],
+      "robot": "none",
+      "prompt_en": "detailed 16-bit RPG pixel art, bright daytime laboratory, no text, no letters, no logos — comic panel, see docs/GENSPARK_요청서_RSI.md",
+      "source_of": null,
+      "status": "redraw"
+    },
+    {
+      "id": "sc_cmo_1",
+      "role": "outro",
+      "embedded_in": "index.html",
+      "key": ".frame[data-img=\"cmo_1\"]",
+      "size": [
+        1024,
+        1024
+      ],
+      "characters": [
+        "doc"
+      ],
+      "robot": "none",
+      "prompt_en": "detailed 16-bit RPG pixel art, bright daytime laboratory, no text, no letters, no logos — comic panel, see docs/GENSPARK_요청서_RSI.md",
+      "source_of": null,
+      "status": "redraw"
+    },
+    {
+      "id": "sc_cmo_2",
+      "role": "outro",
+      "embedded_in": "index.html",
+      "key": ".frame[data-img=\"cmo_2\"]",
+      "size": [
+        1024,
+        1024
+      ],
+      "characters": [
+        "fly"
+      ],
+      "robot": "none",
+      "prompt_en": "detailed 16-bit RPG pixel art, bright daytime laboratory, no text, no letters, no logos — comic panel, see docs/GENSPARK_요청서_RSI.md",
+      "source_of": null,
+      "status": "redraw"
+    },
+    {
+      "id": "sc_cmo_3",
+      "role": "outro",
+      "embedded_in": "index.html",
+      "key": ".frame[data-img=\"cmo_3\"]",
+      "size": [
+        1024,
+        1024
+      ],
+      "characters": [
+        "jupanbot"
+      ],
+      "robot": "jupanbot-v2",
+      "prompt_en": "detailed 16-bit RPG pixel art, bright daytime laboratory, no text, no letters, no logos — comic panel, see docs/GENSPARK_요청서_RSI.md",
+      "source_of": null,
+      "status": "redraw"
+    },
+    {
+      "id": "sc_cmo_4",
+      "role": "outro",
+      "embedded_in": "index.html",
+      "key": ".frame[data-img=\"cmo_4\"]",
+      "size": [
+        1024,
+        1024
+      ],
+      "characters": [
+        "asst"
+      ],
+      "robot": "none",
+      "prompt_en": "detailed 16-bit RPG pixel art, bright daytime laboratory, no text, no letters, no logos — comic panel, see docs/GENSPARK_요청서_RSI.md",
+      "source_of": null,
+      "status": "redraw"
+    }
+  ],
+  "updated": "2026-11-20"
+}

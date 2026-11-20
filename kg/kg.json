@@ -1,0 +1,1944 @@
+{
+ "version": "1.0",
+ "page": "rsi_foundations",
+ "nodes": [
+  {
+   "id": "lab:concept/recursive-self-improvement",
+   "type": "Concept",
+   "label": {
+    "ko": "재귀적 자기개선 (RSI)",
+    "en": "Recursive self-improvement"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#s1",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "AI가 자기 결과를 보고 자기를 고치고, 고친 방식이 다음 고침에 다시 쓰이는 제안→실행→측정→갱신의 순환"
+   }
+  },
+  {
+   "id": "lab:concept/intelligence-explosion",
+   "type": "Concept",
+   "label": {
+    "ko": "지능 폭발",
+    "en": "Intelligence explosion"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#s1",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "더 나은 기계를 설계하는 기계가 연쇄적으로 지능을 끌어올린다는 생각 실험"
+   }
+  },
+  {
+   "id": "lab:concept/improvement-loop",
+   "type": "Concept",
+   "label": {
+    "ko": "개선 순환 (제안→실행→측정→갱신)",
+    "en": "Propose-run-measure-update loop"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#s1",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "RSI의 조작적 정의. 갱신이 남아 다음 바퀴에 쓰일 때 재귀적이다"
+   }
+  },
+  {
+   "id": "lab:concept/verification-hierarchy",
+   "type": "Concept",
+   "label": {
+    "ko": "확인 신호의 위계",
+    "en": "Verification hierarchy"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#s4",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "evaluation",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "형식 검증기(가장 강함)부터 모델 자신의 내부 신호(가장 약함)까지 확인 신호를 줄 세운 것"
+   }
+  },
+  {
+   "id": "lab:concept/model-collapse",
+   "type": "Concept",
+   "label": {
+    "ko": "모델 붕괴",
+    "en": "Model collapse"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#s4",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "generative",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "모델이 만든 데이터를 가리지 않고 다시 학습에 쓰면 원래 분포의 꼬리가 사라지는 결함"
+   }
+  },
+  {
+   "id": "lab:concept/harness",
+   "type": "Term",
+   "label": {
+    "ko": "하네스",
+    "en": "Agent harness"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#s3",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "고정된 모델을 둘러싼 프롬프트·스킬·도구 규칙·메모리 묶음"
+   }
+  },
+  {
+   "id": "lab:concept/improvement-target",
+   "type": "Concept",
+   "label": {
+    "ko": "개선 대상 × 순환이 닫힌 정도",
+    "en": "Improvement target × loop closure"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#s3",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "무엇을 고치나(행동·가중치·평가자·연구 과정)와 사람이 순환 어디에 있나로 RSI 연구를 나누는 틀"
+   }
+  },
+  {
+   "id": "lab:method/godel-machine",
+   "type": "Method",
+   "label": {
+    "ko": "괴델 머신",
+    "en": "Gödel machine"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#s2",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "수정이 유용하다는 증명을 찾으면 자기 코드를 고쳐 쓰는 이론 모델"
+   }
+  },
+  {
+   "id": "lab:method/darwin-godel-machine",
+   "type": "Method",
+   "label": {
+    "ko": "다윈 괴델 머신 (DGM)",
+    "en": "Darwin Gödel Machine"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#s2",
+   "level": 4,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "rl",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "증명 대신 벤치마크 실험 증거로 수정을 받아들이고, 만든 에이전트를 보관소에 모두 남기는 자기개선 코딩 에이전트"
+   }
+  },
+  {
+   "id": "lab:method/archive-search",
+   "type": "Method",
+   "label": {
+    "ko": "보관소 탐색",
+    "en": "Archive-based open-ended search"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#s2",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "rl",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "점수가 낮아도 새로운 시도를 남겨 다음 탐색의 출발점으로 쓰는 방법"
+   }
+  },
+  {
+   "id": "lab:method/star",
+   "type": "Method",
+   "label": {
+    "ko": "STaR",
+    "en": "Self-Taught Reasoner"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#s3",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "정답에 닿은 자기 풀이만 골라 다시 학습하기를 반복"
+   }
+  },
+  {
+   "id": "lab:method/self-rewarding-lm",
+   "type": "Method",
+   "label": {
+    "ko": "Self-Rewarding LM",
+    "en": "Self-Rewarding Language Models"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#s4",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "모델이 스스로 채점하며 반복 학습해 지시 수행과 채점 능력을 함께 키움"
+   }
+  },
+  {
+   "id": "lab:method/guard-soft-hurt-gate",
+   "type": "Method",
+   "label": {
+    "ko": "GUARD · Soft-HURT 관문",
+    "en": "GUARD Soft-HURT gate"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#s5",
+   "level": 4,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "가중치를 고정하고 하네스만 고치며, 얻는 것이 잃는 것보다 여유만큼 클 때만 수정을 받아들이는 관문"
+   }
+  },
+  {
+   "id": "lab:method/pretraining-rsi-loops",
+   "type": "Method",
+   "label": {
+    "ko": "사전학습의 작은 순환들 (801)",
+    "en": "Decomposed pre-training RSI loops"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#s3",
+   "level": 4,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "다시 돌릴 수 없는 사전학습을 디버깅·헤드룸·경험을 지표로 바꾸는 작은 순환들로 나눠 개선"
+   }
+  },
+  {
+   "id": "lab:method/rsi-button-game",
+   "type": "Method",
+   "label": {
+    "ko": "RSI 버튼 게임",
+    "en": "RSI two-player game"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#game",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "두 플레이어가 RSI를 시작할지 고르는 위험 r의 2인 게임"
+   }
+  },
+  {
+   "id": "lab:limitation/proof-impractical",
+   "type": "Limitation",
+   "label": {
+    "ko": "대부분의 수정은 미리 증명할 수 없다",
+    "en": "Most changes cannot be proven beneficial"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#s2",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:limitation/local-optimum",
+   "type": "Limitation",
+   "label": {
+    "ko": "좋아진 것만 남기면 동네 꼭대기에 갇힘",
+    "en": "Greedy hill climbing gets stuck"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#s2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "optimization",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:limitation/measurement-error",
+   "type": "Limitation",
+   "label": {
+    "ko": "측정이 틀리면 잰 점수만 오른다",
+    "en": "Measured gains diverge from true gains"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#s1",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:limitation/self-edit-regression",
+   "type": "Limitation",
+   "label": {
+    "ko": "채점자 없는 자기 수정의 퇴보·망각·메모리 오염",
+    "en": "Regression, forgetting and memory pollution in grader-free self-editing"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#s5",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:limitation/guarantee-on-self-review",
+   "type": "Limitation",
+   "label": {
+    "ko": "성능 유지 보장은 자기 점검 목록 기준",
+    "en": "Non-regression holds on the self-review objective"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#s5",
+   "level": 4,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:limitation/unrepeatable-run",
+   "type": "Limitation",
+   "label": {
+    "ko": "사전학습은 다시 돌릴 수 없다",
+    "en": "Frontier pre-training runs cannot be repeated"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#s3",
+   "level": 4,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:question/rsi-safety",
+   "type": "Question",
+   "label": {
+    "ko": "RSI는 안전한가 — 위험을 아직 이해하지 못한다",
+    "en": "Is RSI safe? Risks are not yet understood"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#game",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:question/meta-improvement",
+   "type": "Question",
+   "label": {
+    "ko": "개선이 개선을 정말 빠르게 하는가 (m > 0?)",
+    "en": "Does improvement accelerate improvement?"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#s1",
+   "level": 3,
+   "status": "known",
+   "confidence": "medium",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:claim/good-intelligence-explosion",
+   "type": "Claim",
+   "label": {
+    "ko": "더 나은 기계를 설계하는 기계는 지능 폭발을 일으킬 것이라는 생각 실험",
+    "en": "더 나은 기계를 설계하는 기계는 지능 폭발을 일으킬 것이라는 생각 실험"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#s1",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "good1965speculations",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/dgm-swebench",
+   "type": "Claim",
+   "label": {
+    "ko": "DGM은 SWE-bench 20.0%→50.0%, Polyglot 14.2%→30.7%로 올렸다",
+    "en": "DGM은 SWE-bench 20.0%→50.0%, Polyglot 14.2%→30.7%로 올렸다"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#s2",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "zhang2025darwin",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/star-30x",
+   "type": "Claim",
+   "label": {
+    "ko": "STaR는 CommonsenseQA에서 30배 큰 모델 미세조정과 비슷한 성능을 냈다",
+    "en": "STaR는 CommonsenseQA에서 30배 큰 모델 미세조정과 비슷한 성능을 냈다"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#s3",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "zelikman2022star",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/chen-1250",
+   "type": "Claim",
+   "label": {
+    "ko": "Chen 외는 2024~2026년 arXiv 논문 1,250편을 개선 대상과 순환이 닫힌 정도로 분류했다",
+    "en": "Chen 외는 2024~2026년 arXiv 논문 1,250편을 개선 대상과 순환이 닫힌 정도로 분류했다"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#s3",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "chen2026recursive",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/chen-hierarchy-pattern",
+   "type": "Claim",
+   "label": {
+    "ko": "자기개선의 크기는 확인 신호 위계를 따른다는 정성적 관찰",
+    "en": "자기개선의 크기는 확인 신호 위계를 따른다는 정성적 관찰"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#s4",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "chen2026recursive",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/collapse-tails",
+   "type": "Claim",
+   "label": {
+    "ko": "자기 생성 데이터를 가리지 않고 쓰면 분포의 꼬리가 사라진다",
+    "en": "자기 생성 데이터를 가리지 않고 쓰면 분포의 꼬리가 사라진다"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#s4",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "shumailov2024ai",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/srlm-alpaca",
+   "type": "Claim",
+   "label": {
+    "ko": "Self-Rewarding: Llama 2 70B를 3회 반복해 AlpacaEval 2.0에서 여러 시스템을 앞섰고, 개선은 포화될 가능성이 높다",
+    "en": "Self-Rewarding: Llama 2 70B를 3회 반복해 AlpacaEval 2.0에서 여러 시스템을 앞섰고, 개선은 포화될 가능성이 높다"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#s4",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "yuan2024selfrewarding",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/801-benchmarks",
+   "type": "Claim",
+   "label": {
+    "ko": "801: 1T 토큰 기준 22개 벤치마크 평균 47.78→51.96→56.83",
+    "en": "801: 1T 토큰 기준 22개 벤치마크 평균 47.78→51.96→56.83"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#s3",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "sii2026second",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/801-human-approval",
+   "type": "Claim",
+   "label": {
+    "ko": "801에서 조사 우선순위와 수정 승인은 사람이 맡는다",
+    "en": "801에서 조사 우선순위와 수정 승인은 사람이 맡는다"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#s3",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "sii2026second",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/guard-19of19",
+   "type": "Claim",
+   "label": {
+    "ko": "GUARD는 받아들인 수정 19건 모두에서 성능이 떨어지지 않았고 과제당 토큰을 54.5% 줄였다",
+    "en": "GUARD는 받아들인 수정 19건 모두에서 성능이 떨어지지 않았고 과제당 토큰을 54.5% 줄였다"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#s5",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "zhang2026guard",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/conitzer-unknown",
+   "type": "Claim",
+   "label": {
+    "ko": "위험을 이해하지 못하는 한 RSI가 안전하다고 주장할 수 없다",
+    "en": "위험을 이해하지 못하는 한 RSI가 안전하다고 주장할 수 없다"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#game",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "conitzer2026recursive",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:simulation/loop",
+   "type": "Simulation",
+   "label": {
+    "ko": "대시보드 ① 순환 시뮬레이터",
+    "en": "Loop simulator"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#p1",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:simulation/archive",
+   "type": "Simulation",
+   "label": {
+    "ko": "대시보드 ② 성능 지형 탐색",
+    "en": "Archive search landscape"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#p2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:simulation/map",
+   "type": "Simulation",
+   "label": {
+    "ko": "대시보드 ③ RSI 연구 지도",
+    "en": "RSI research map"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#p3",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:simulation/collapse",
+   "type": "Simulation",
+   "label": {
+    "ko": "대시보드 ④ 모델 붕괴 실험실",
+    "en": "Model collapse lab"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#p4",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:simulation/gate",
+   "type": "Simulation",
+   "label": {
+    "ko": "대시보드 ⑤ 수정 심사실",
+    "en": "Edit gate simulator"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#p5",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:simulation/game",
+   "type": "Simulation",
+   "label": {
+    "ko": "대시보드 ⑥ RSI 버튼 게임",
+    "en": "RSI button game"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#p6",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:simulation/duel",
+   "type": "Simulation",
+   "label": {
+    "ko": "대결: 자기 데이터 50세대",
+    "en": "Duel: self-data for 50 generations"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#duel",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:quiz/p0-s1-1",
+   "type": "QuizItem",
+   "label": {
+    "ko": "s1 확인 퀴즈 1",
+    "en": "Quiz s1-1"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#s1",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "mentioned",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:quiz/p0-s1-2",
+   "type": "QuizItem",
+   "label": {
+    "ko": "s1 확인 퀴즈 2",
+    "en": "Quiz s1-2"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#s1",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "mentioned",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:quiz/p0-s2-1",
+   "type": "QuizItem",
+   "label": {
+    "ko": "s2 확인 퀴즈 1",
+    "en": "Quiz s2-1"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#s2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "mentioned",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:quiz/p0-s2-2",
+   "type": "QuizItem",
+   "label": {
+    "ko": "s2 확인 퀴즈 2",
+    "en": "Quiz s2-2"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#s2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "mentioned",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:quiz/p0-s3-1",
+   "type": "QuizItem",
+   "label": {
+    "ko": "s3 확인 퀴즈 1",
+    "en": "Quiz s3-1"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#s3",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "mentioned",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:quiz/p0-s3-2",
+   "type": "QuizItem",
+   "label": {
+    "ko": "s3 확인 퀴즈 2",
+    "en": "Quiz s3-2"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#s3",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "mentioned",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:quiz/p0-s4-1",
+   "type": "QuizItem",
+   "label": {
+    "ko": "s4 확인 퀴즈 1",
+    "en": "Quiz s4-1"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#s4",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "mentioned",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:quiz/p0-s4-2",
+   "type": "QuizItem",
+   "label": {
+    "ko": "s4 확인 퀴즈 2",
+    "en": "Quiz s4-2"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#s4",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "mentioned",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:quiz/p0-s5-1",
+   "type": "QuizItem",
+   "label": {
+    "ko": "s5 확인 퀴즈 1",
+    "en": "Quiz s5-1"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#s5",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "mentioned",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:quiz/p0-s5-2",
+   "type": "QuizItem",
+   "label": {
+    "ko": "s5 확인 퀴즈 2",
+    "en": "Quiz s5-2"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#s5",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "mentioned",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:work/good1965speculations",
+   "type": "Work",
+   "label": {
+    "ko": "Speculations Concerning the First Ultraintelligent Machine",
+    "en": "Speculations Concerning the First Ultraintelligent Machine"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:work/schmidhuber2003godel",
+   "type": "Work",
+   "label": {
+    "ko": "Gödel Machines: Self-Referential Universal Problem Solvers Making Provably Optimal Self-Improvements",
+    "en": "Gödel Machines: Self-Referential Universal Problem Solvers Making Provably Optimal Self-Improvements"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:work/zelikman2022star",
+   "type": "Work",
+   "label": {
+    "ko": "STaR: Bootstrapping Reasoning With Reasoning",
+    "en": "STaR: Bootstrapping Reasoning With Reasoning"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:work/chen2026recursive",
+   "type": "Work",
+   "label": {
+    "ko": "Recursive Self-Improvement in AI: From Bounded Self-Refinement to Autonomous Research Loops",
+    "en": "Recursive Self-Improvement in AI: From Bounded Self-Refinement to Autonomous Research Loops"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:work/zhang2025darwin",
+   "type": "Work",
+   "label": {
+    "ko": "Darwin Gödel Machine: Open-Ended Evolution of Self-Improving Agents",
+    "en": "Darwin Gödel Machine: Open-Ended Evolution of Self-Improving Agents"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:work/shumailov2024ai",
+   "type": "Work",
+   "label": {
+    "ko": "AI models collapse when trained on recursively generated data",
+    "en": "AI models collapse when trained on recursively generated data"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:work/yuan2024selfrewarding",
+   "type": "Work",
+   "label": {
+    "ko": "Self-Rewarding Language Models",
+    "en": "Self-Rewarding Language Models"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:work/sii2026second",
+   "type": "Work",
+   "label": {
+    "ko": "No Second Run: Does RSI Stop at Frontier Pre-training?",
+    "en": "No Second Run: Does RSI Stop at Frontier Pre-training?"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:work/zhang2026guard",
+   "type": "Work",
+   "label": {
+    "ko": "GUARD: Stabilizing Recursive Self-Improvement with Regret Guidance",
+    "en": "GUARD: Stabilizing Recursive Self-Improvement with Regret Guidance"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:work/conitzer2026recursive",
+   "type": "Work",
+   "label": {
+    "ko": "Is Recursive Self-Improvement Safe?",
+    "en": "Is Recursive Self-Improvement Safe?"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:work/tomshardware2026qwenputer",
+   "type": "Work",
+   "label": {
+    "ko": "AI engineer successfully compiles a 32-bit RISC-V CPU in Qwen 3.5 4B LLM (Qwenputer)",
+    "en": "AI engineer successfully compiles a 32-bit RISC-V CPU in Qwen 3.5 4B LLM (Qwenputer)"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:work/theregister2026weightspace",
+   "type": "Work",
+   "label": {
+    "ko": "Forget retraining - AI can now tweak another AI's weights",
+    "en": "Forget retraining - AI can now tweak another AI's weights"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:claim/godel-proof-rewrite",
+   "type": "Claim",
+   "label": {
+    "ko": "괴델 머신은 수정이 유용하다는 증명을 찾으면 자기 코드를 고쳐 쓴다",
+    "en": "괴델 머신은 수정이 유용하다는 증명을 찾으면 자기 코드를 고쳐 쓴다"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#s2",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "schmidhuber2003godel",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/qwenputer-compiled",
+   "type": "Claim",
+   "label": {
+    "ko": "Qwenputer의 CPU 층 가중치는 학습 없이 컴파일러가 계산했다",
+    "en": "Qwenputer의 CPU 층 가중치는 학습 없이 컴파일러가 계산했다"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#aicheck",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "tomshardware2026qwenputer",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/wsp-edit-other",
+   "type": "Claim",
+   "label": {
+    "ko": "가중치 공간 프로그래밍 실험은 LLM이 다른 모델의 가중치를 편집한 것이다",
+    "en": "가중치 공간 프로그래밍 실험은 LLM이 다른 모델의 가중치를 편집한 것이다"
+   },
+   "page": "rsi_foundations",
+   "anchor": "#aicheck",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "responsible",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "theregister2026weightspace",
+     "loc": ""
+    }
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "s": "lab:quiz/p0-s1-1",
+   "p": "lab:assesses",
+   "o": "lab:limitation/measurement-error",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p0-s1-2",
+   "p": "lab:assesses",
+   "o": "lab:limitation/measurement-error",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p0-s2-1",
+   "p": "lab:assesses",
+   "o": "lab:method/darwin-godel-machine",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p0-s2-2",
+   "p": "lab:assesses",
+   "o": "lab:method/darwin-godel-machine",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p0-s3-1",
+   "p": "lab:assesses",
+   "o": "lab:concept/harness",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p0-s3-2",
+   "p": "lab:assesses",
+   "o": "lab:concept/harness",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p0-s4-1",
+   "p": "lab:assesses",
+   "o": "lab:concept/model-collapse",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p0-s4-2",
+   "p": "lab:assesses",
+   "o": "lab:concept/model-collapse",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p0-s5-1",
+   "p": "lab:assesses",
+   "o": "lab:method/guard-soft-hurt-gate",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p0-s5-2",
+   "p": "lab:assesses",
+   "o": "lab:method/guard-soft-hurt-gate",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/good-intelligence-explosion",
+   "p": "lab:assertedIn",
+   "o": "lab:work/good1965speculations",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/dgm-swebench",
+   "p": "lab:assertedIn",
+   "o": "lab:work/zhang2025darwin",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/star-30x",
+   "p": "lab:assertedIn",
+   "o": "lab:work/zelikman2022star",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/chen-1250",
+   "p": "lab:assertedIn",
+   "o": "lab:work/chen2026recursive",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/chen-hierarchy-pattern",
+   "p": "lab:assertedIn",
+   "o": "lab:work/chen2026recursive",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/collapse-tails",
+   "p": "lab:assertedIn",
+   "o": "lab:work/shumailov2024ai",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/srlm-alpaca",
+   "p": "lab:assertedIn",
+   "o": "lab:work/yuan2024selfrewarding",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/801-benchmarks",
+   "p": "lab:assertedIn",
+   "o": "lab:work/sii2026second",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/801-human-approval",
+   "p": "lab:assertedIn",
+   "o": "lab:work/sii2026second",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/guard-19of19",
+   "p": "lab:assertedIn",
+   "o": "lab:work/zhang2026guard",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/conitzer-unknown",
+   "p": "lab:assertedIn",
+   "o": "lab:work/conitzer2026recursive",
+   "anchor": "#game",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/intelligence-explosion",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:concept/recursive-self-improvement",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/improvement-loop",
+   "p": "lab:partOf",
+   "o": "lab:concept/recursive-self-improvement",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/improvement-loop",
+   "p": "lab:hasLimitation",
+   "o": "lab:limitation/measurement-error",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/measurement-error",
+   "p": "lab:addressedBy",
+   "o": "lab:concept/verification-hierarchy",
+   "anchor": "#s4",
+   "confidence": "medium"
+  },
+  {
+   "s": "lab:method/godel-machine",
+   "p": "lab:hasLimitation",
+   "o": "lab:limitation/proof-impractical",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/proof-impractical",
+   "p": "lab:addressedBy",
+   "o": "lab:method/darwin-godel-machine",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/archive-search",
+   "p": "lab:partOf",
+   "o": "lab:method/darwin-godel-machine",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/local-optimum",
+   "p": "lab:addressedBy",
+   "o": "lab:method/archive-search",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/star",
+   "p": "lab:partOf",
+   "o": "lab:concept/recursive-self-improvement",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/self-rewarding-lm",
+   "p": "lab:partOf",
+   "o": "lab:concept/recursive-self-improvement",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/darwin-godel-machine",
+   "p": "lab:partOf",
+   "o": "lab:concept/recursive-self-improvement",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/guard-soft-hurt-gate",
+   "p": "lab:partOf",
+   "o": "lab:concept/recursive-self-improvement",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/pretraining-rsi-loops",
+   "p": "lab:partOf",
+   "o": "lab:concept/recursive-self-improvement",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/godel-machine",
+   "p": "lab:partOf",
+   "o": "lab:concept/recursive-self-improvement",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/improvement-target",
+   "p": "lab:partOf",
+   "o": "lab:concept/recursive-self-improvement",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/guard-soft-hurt-gate",
+   "p": "lab:relatedTo",
+   "o": "lab:concept/harness",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/pretraining-rsi-loops",
+   "p": "lab:hasLimitation",
+   "o": "lab:limitation/unrepeatable-run",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/model-collapse",
+   "p": "lab:contrastsWith",
+   "o": "lab:concept/verification-hierarchy",
+   "anchor": "#s4",
+   "confidence": "medium"
+  },
+  {
+   "s": "lab:method/self-rewarding-lm",
+   "p": "lab:relatedTo",
+   "o": "lab:concept/verification-hierarchy",
+   "anchor": "#s4",
+   "confidence": "medium"
+  },
+  {
+   "s": "lab:limitation/self-edit-regression",
+   "p": "lab:addressedBy",
+   "o": "lab:method/guard-soft-hurt-gate",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/guard-soft-hurt-gate",
+   "p": "lab:hasLimitation",
+   "o": "lab:limitation/guarantee-on-self-review",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/recursive-self-improvement",
+   "p": "lab:raises",
+   "o": "lab:question/rsi-safety",
+   "anchor": "#game",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/recursive-self-improvement",
+   "p": "lab:raises",
+   "o": "lab:question/meta-improvement",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/rsi-button-game",
+   "p": "lab:relatedTo",
+   "o": "lab:question/rsi-safety",
+   "anchor": "#game",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/measurement-error",
+   "p": "lab:demonstratedBy",
+   "o": "lab:simulation/loop",
+   "anchor": "#p1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/archive-search",
+   "p": "lab:demonstratedBy",
+   "o": "lab:simulation/archive",
+   "anchor": "#p2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/improvement-target",
+   "p": "lab:demonstratedBy",
+   "o": "lab:simulation/map",
+   "anchor": "#p3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/model-collapse",
+   "p": "lab:demonstratedBy",
+   "o": "lab:simulation/collapse",
+   "anchor": "#p4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/guard-soft-hurt-gate",
+   "p": "lab:demonstratedBy",
+   "o": "lab:simulation/gate",
+   "anchor": "#p5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/rsi-button-game",
+   "p": "lab:demonstratedBy",
+   "o": "lab:simulation/game",
+   "anchor": "#p6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/model-collapse",
+   "p": "lab:demonstratedBy",
+   "o": "lab:simulation/duel",
+   "anchor": "#duel",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/recursive-self-improvement",
+   "p": "lab:broader",
+   "o": "lab:topic/ai-safety",
+   "anchor": "#s1",
+   "confidence": "medium"
+  },
+  {
+   "s": "lab:concept/model-collapse",
+   "p": "lab:broader",
+   "o": "lab:topic/density-estimation",
+   "anchor": "#s4",
+   "confidence": "medium"
+  },
+  {
+   "s": "lab:concept/verification-hierarchy",
+   "p": "lab:broader",
+   "o": "lab:topic/ablation",
+   "anchor": "#s4",
+   "confidence": "medium"
+  },
+  {
+   "s": "lab:method/archive-search",
+   "p": "lab:broader",
+   "o": "lab:topic/exploration",
+   "anchor": "#s2",
+   "confidence": "medium"
+  },
+  {
+   "s": "lab:method/darwin-godel-machine",
+   "p": "lab:broader",
+   "o": "lab:topic/exploration",
+   "anchor": "#s2",
+   "confidence": "medium"
+  },
+  {
+   "s": "lab:method/star",
+   "p": "lab:broader",
+   "o": "lab:topic/pretrained-lm",
+   "anchor": "#s3",
+   "confidence": "medium"
+  },
+  {
+   "s": "lab:method/self-rewarding-lm",
+   "p": "lab:broader",
+   "o": "lab:topic/pretrained-lm",
+   "anchor": "#s4",
+   "confidence": "medium"
+  },
+  {
+   "s": "lab:concept/harness",
+   "p": "lab:broader",
+   "o": "lab:topic/prompting",
+   "anchor": "#s3",
+   "confidence": "medium"
+  },
+  {
+   "s": "lab:method/guard-soft-hurt-gate",
+   "p": "lab:broader",
+   "o": "lab:topic/monitoring",
+   "anchor": "#s5",
+   "confidence": "medium"
+  },
+  {
+   "s": "lab:question/rsi-safety",
+   "p": "lab:broader",
+   "o": "lab:topic/ai-safety",
+   "anchor": "#game",
+   "confidence": "medium"
+  },
+  {
+   "s": "lab:method/pretraining-rsi-loops",
+   "p": "lab:broader",
+   "o": "lab:topic/pretrained-lm",
+   "anchor": "#s3",
+   "confidence": "medium"
+  },
+  {
+   "s": "lab:limitation/local-optimum",
+   "p": "lab:broader",
+   "o": "lab:topic/gradient-descent",
+   "anchor": "#s2",
+   "confidence": "medium"
+  },
+  {
+   "s": "lab:claim/godel-proof-rewrite",
+   "p": "lab:assertedIn",
+   "o": "lab:work/schmidhuber2003godel",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/qwenputer-compiled",
+   "p": "lab:assertedIn",
+   "o": "lab:work/tomshardware2026qwenputer",
+   "anchor": "#aicheck",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/wsp-edit-other",
+   "p": "lab:assertedIn",
+   "o": "lab:work/theregister2026weightspace",
+   "anchor": "#aicheck",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/good-intelligence-explosion",
+   "p": "lab:supports",
+   "o": "lab:concept/intelligence-explosion",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/godel-proof-rewrite",
+   "p": "lab:supports",
+   "o": "lab:method/godel-machine",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/dgm-swebench",
+   "p": "lab:supports",
+   "o": "lab:method/darwin-godel-machine",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/star-30x",
+   "p": "lab:supports",
+   "o": "lab:method/star",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/chen-1250",
+   "p": "lab:supports",
+   "o": "lab:concept/improvement-target",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/chen-hierarchy-pattern",
+   "p": "lab:supports",
+   "o": "lab:concept/verification-hierarchy",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/collapse-tails",
+   "p": "lab:supports",
+   "o": "lab:concept/model-collapse",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/srlm-alpaca",
+   "p": "lab:supports",
+   "o": "lab:method/self-rewarding-lm",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/801-benchmarks",
+   "p": "lab:supports",
+   "o": "lab:method/pretraining-rsi-loops",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/801-human-approval",
+   "p": "lab:supports",
+   "o": "lab:method/pretraining-rsi-loops",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/guard-19of19",
+   "p": "lab:supports",
+   "o": "lab:method/guard-soft-hurt-gate",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/conitzer-unknown",
+   "p": "lab:supports",
+   "o": "lab:question/rsi-safety",
+   "anchor": "#game",
+   "confidence": "high"
+  }
+ ]
+}

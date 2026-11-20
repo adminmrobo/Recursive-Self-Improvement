@@ -49,7 +49,9 @@
       "robot": "jupanbot-v2",
       "prompt_en": "detailed 16-bit RPG pixel art, bright daytime laboratory, no text, no letters, no logos — large four-color circular loop machine on the right, four characters on the left (full prompt: docs/GENSPARK_요청서_RSI.md, 요청 1)",
       "source_of": null,
-      "status": "redraw"
+      "status": "ok",
+      "embedded_in": "index.html",
+      "key": "#cover img.cv"
     },
     {
       "id": "og",
@@ -68,7 +70,7 @@
       "robot": "jupanbot-v2",
       "prompt_en": null,
       "source_of": "cover",
-      "status": "redraw"
+      "status": "ok"
     },
     {
       "id": "sc_cm1_1",

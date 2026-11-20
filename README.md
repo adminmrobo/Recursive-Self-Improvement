@@ -41,7 +41,7 @@
 | `cover_manifest.json` | 표지·장면 그림 목록 ([ahnboat lab 이미지 표지 현황](https://adminmrobo.github.io/ahnboat_lab_cover_status/)이 읽음) |
 
 ## 그림
-지금은 대체 표지와 캐릭터 팩 표정 그림으로 만든 4컷 만화를 씁니다. 픽셀아트 표지 1장과 만화 16컷은 `docs/GENSPARK_요청서_RSI.md`로 제작 중입니다.
+표지는 16비트 픽셀아트 그림(`img/cover_rsi.webp`, 공유 미리보기 `img/og_rsi.jpg`)을 씁니다. 4컷 만화는 지금 캐릭터 팩 표정 그림으로 만들었고, 픽셀아트 만화 16컷은 `docs/GENSPARK_요청서_RSI.md`로 제작 중입니다.
 
 ---
 
